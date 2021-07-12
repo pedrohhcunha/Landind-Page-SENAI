@@ -188,3 +188,36 @@ section#contents .stage h3{
 section#contents .stage h3 strong{
     font-weight: 800;
 }
+@media (max-width: 500px){
+    header nav ul{
+        display: none;
+    }
+    section#first {
+        display: block;
+        align-items: initial;
+        justify-content: initial;
+    }
+    section#first .intro{
+        width: 100%;
+    }
+    section#first .intro h1{
+        font-size: 32px;
+        text-align: left;
+    }
+    section#first form{
+        width: 100%;
+    }
+    section#contents{
+        display: block;
+        align-items: initial;
+        justify-content: initial;
+        background: var(--darkBlue);
+        height: auto;
+        padding: 50px 0;
+    }
+    section#contents .stage .circle{
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
